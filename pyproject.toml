@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "search-orders-backend"
+version = "0.1.0"
+description = ""
+authors = ["Ray <ggammi1007@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.2"
+ninja = "^1.11.1.1"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+manage = "django.core.management:execute_from_command_line"
+

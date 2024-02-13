@@ -1,0 +1,30 @@
+# Poetry
+__pypackages__/
+venv/
+poetry.lock
+dist/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+__pycache__
+media/
+static/
+local_settings.py
+
+# Ninja
+.db
+ *.sqlite3
+
+# PostgreSQL
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.pem
+
+# PostgreSQL backup files
+pg_backup/
+
